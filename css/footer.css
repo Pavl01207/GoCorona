@@ -1,0 +1,26 @@
+.footer {
+	background-color: #ffffff;
+	padding-bottom: 47px;
+}
+.footer__container {
+	display: flex;
+	gap: 56px;
+	align-items: center;
+	justify-content: center;
+}
+.footer__button {
+}
+@media (max-width: 767.98px) {
+	.footer {
+		padding-bottom: 20px;
+	}
+	.footer__container {
+		gap: 30px;
+	}
+}
+@media (max-width: 420px) {
+	.footer__container {
+		flex-direction: column;
+		row-gap: 10px;
+	}
+}

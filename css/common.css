@@ -1,0 +1,83 @@
+.button {
+	font-family: 'Raleway';
+	font-weight: 800;
+	font-size: .625rem;
+	line-height: 1.2;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	text-align: center;
+	color: #FCFDFE;
+	background-color: #EC5863;
+	padding: 14px 29px;
+	border-radius: 5px;
+	transition: background-color 0.3 ease 0s;
+}
+.button:hover {
+	background-color: rgb(158, 50, 57);
+}
+.button__blue {
+	background-color: #4285F4;
+}
+.button__blue:hover {
+	background-color: rgb(42, 81, 143);
+}
+/*----------------------------*/
+.title {
+	font-weight: 700;
+	font-size: 2.75rem;
+	line-height: 1.26;
+	color: #000000;
+}
+.title span {
+	color: #4285F4;
+}
+.title_red span {
+	color: #EC5863;
+}
+@media (max-width: 767.98px) {
+	.title {
+		font-size: 2.25rem;
+	}
+}
+@media (max-width: 420px) {
+	.title {
+		font-size: 1.75rem;
+	}
+}
+/*------------------------------*/
+.content {}
+.content__title {
+	max-width: 497px;
+}
+.content__title:not(:last-child) {
+	margin-bottom: 12px;
+}
+.content__text {
+	max-width: 375px;
+}
+.content__text:not(:last-child) {
+	margin-bottom: 24px;
+}
+.content__button {
+}
+@media (max-width: 767.98px) {
+	.content__title,
+	.content__text {
+		max-width: none;
+	}
+	.content__text:not(:last-child) {
+		margin-bottom: 20px;
+	}
+	.content__title:not(:last-child) {
+		margin-bottom: 10px;
+	}
+}
+@media (max-width: 420px) {
+	.content__button {
+		display: block;
+	}
+	.content__title,
+	.content__text {
+		text-align: center;
+	}
+}
